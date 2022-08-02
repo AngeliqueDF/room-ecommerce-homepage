@@ -1,0 +1,218 @@
+@font-face {
+	font-family: "League Spartan";
+	src: url("./../fonts/LeagueSpartan-VariableFont_wght.ttf");
+	font-style: normal;
+	font-weight: 500 700;
+}
+
+/* Make images responsive */
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* Custom resets */
+a {
+	text-decoration: unset;
+	color: unset;
+}
+button {
+	padding: unset;
+	margin: unset;
+	background: unset;
+	border: unset;
+}
+/* End custom resets */
+
+body {
+	font-family: "League Spartan", sans-serif;
+	color: grey;
+}
+
+/* Layout */
+/* End layout */
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	color: black;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+/* End headings */
+
+/* Header */
+header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	width: 100%;
+
+	box-sizing: border-box;
+	padding: 3rem 2rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header button {
+	order: 1;
+	height: 1rem;
+	width: 1rem;
+	padding: 1rem;
+	background-repeat: no-repeat;
+	background-image: url("./../images/icon-hamburger.svg");
+	background-position: center;
+}
+
+header nav {
+	display: none;
+}
+
+header h1 {
+	order: 2;
+	margin: 0 auto;
+}
+/* End header */
+
+/* Mobile menu */
+.mobile-menu-open header {
+	background-color: white;
+	justify-content: space-between;
+}
+
+body.mobile-menu-open {
+	overflow: hidden;
+}
+
+body.mobile-menu-open::after {
+	display: block;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mobile-menu-open h1 {
+	display: none;
+}
+.mobile-menu-open nav {
+	color: black;
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+	align-items: baseline;
+	font-weight: 700;
+}
+.mobile-menu-open button {
+	background-image: url("./../images/icon-close.svg");
+}
+.mobile-menu-open header > * {
+	order: unset;
+}
+/* End mobile menu */
+
+/* Slider */
+.slide-image {
+	position: relative;
+}
+
+.slider-controls {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.slider-controls button {
+	width: 3.5rem;
+	height: 3.5rem;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20%;
+}
+
+.slider-controls :nth-child(1) {
+	background-image: url("./../images/icon-angle-left.svg");
+	margin-inline-end: -4px;
+}
+.slider-controls :nth-child(2) {
+	background-image: url("./../images/icon-angle-right.svg");
+}
+.slide h2 {
+	margin-block-end: 1rem;
+	font-size: 2.2rem;
+}
+.slide article {
+	padding: 3.5rem 2rem 4rem;
+}
+.slide article > p {
+	font-size: 0.95rem;
+	line-height: 1.5rem;
+	margin-block-end: 2rem;
+}
+
+.shop-now-link {
+	color: black;
+	display: block;
+	padding: 1rem 1rem 1rem 0;
+	height: fit-content;
+	max-width: 72%;
+
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: 0.7rem;
+
+	background-image: url("./../images/icon-arrow.svg");
+	background-repeat: no-repeat;
+	background-position: center right;
+	text-transform: uppercase;
+}
+/* End slider */
+
+/* About section */
+.copy {
+	padding: 3rem 2rem 3rem;
+}
+.about h3 {
+	margin-block-end: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.35rem;
+}
+
+.about p {
+	font-size: 0.95rem;
+	line-height: 1.5rem;
+}
+/* End about section */
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 1rem;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.hide {
+	display: none;
+}

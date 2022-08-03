@@ -113,7 +113,7 @@ body.mobile-menu-open::after {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	z-index: 2;
+	z-index: 1;
 	background-color: rgba(0, 0, 0, 0.5);
 	/* add the element with a fade in */
 	animation: fadein 200ms ease-in;

@@ -176,6 +176,8 @@ body.mobile-menu-open::after {
 }
 
 .slide article img {
+	/* Set fixed width on article images.  */
+	height: 22.5rem;
 }
 .slide .copy p {
 	font-size: 0.95rem;

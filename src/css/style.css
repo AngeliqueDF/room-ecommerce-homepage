@@ -139,10 +139,7 @@ body.mobile-menu-open::after {
 /* End mobile menu */
 
 /* Slider */
-.slide-image {
-	position: relative;
 }
-
 .slider-controls {
 	position: absolute;
 	right: 0;

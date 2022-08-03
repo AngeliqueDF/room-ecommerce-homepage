@@ -149,7 +149,7 @@ body.mobile-menu-open::after {
 
 .slider-controls :nth-child(1) {
 	background-image: url("./../images/icon-angle-left.svg");
-	margin-inline-end: -4px;
+	margin-inline-end: -5px;
 }
 .slider-controls :nth-child(2) {
 	background-image: url("./../images/icon-angle-right.svg");

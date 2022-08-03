@@ -146,9 +146,13 @@ body.mobile-menu-open::after {
 	grid-template-columns: repeat(3, 100vw);
 	/* allow users to scroll horizontally */
 	overflow-x: scroll;
+	/* enforce snap points */
+	scroll-snap-type: x mandatory;
 }
 .slider-cta ul li {
 	width: 100vw;
+	/* snap scroll at the start of the block an main axes */
+	scroll-snap-align: start;
 }
 .slider-controls {
 	position: absolute;

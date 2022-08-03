@@ -147,6 +147,8 @@ body.mobile-menu-open::after {
 	/* allow users to scroll horizontally */
 	overflow-x: scroll;
 }
+.slider-cta ul li {
+	width: 100vw;
 }
 .slider-controls {
 	position: absolute;

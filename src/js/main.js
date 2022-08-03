@@ -6,4 +6,3 @@ const [sliderLeftButton, sliderRightButton] = Array.from(
 const sliderControls = Slider(".slider-cta ul", ".slide");
 sliderLeftButton.addEventListener("click", sliderControls.moveToPreviousSlide);
 sliderRightButton.addEventListener("click", sliderControls.moveToNextSlide);
-

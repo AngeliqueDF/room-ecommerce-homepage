@@ -245,3 +245,17 @@ body.mobile-menu-open::after {
 .hide {
 	display: none;
 }
+
+@media (hover: hover) {
+	/* when supported */
+	.slider-controls button:hover {
+		cursor: pointer;
+		background-color: grey;
+	}
+}
+
+@media (hover: none) {
+	.slider-controls button:active {
+		background-color: grey;
+	}
+}

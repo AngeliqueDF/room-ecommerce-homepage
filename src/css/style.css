@@ -93,6 +93,15 @@ header h1 {
 body.mobile-menu-open {
 	overflow: hidden;
 }
+/* Add fade in animation */
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 
 body.mobile-menu-open::after {
 	width: 100vw;
@@ -106,6 +115,8 @@ body.mobile-menu-open::after {
 	right: 0;
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.5);
+	/* add the element with a fade in */
+	animation: fadein 200ms ease-in;
 }
 
 .mobile-menu-open h1 {

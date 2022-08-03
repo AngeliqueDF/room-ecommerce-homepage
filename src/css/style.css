@@ -139,6 +139,14 @@ body.mobile-menu-open::after {
 /* End mobile menu */
 
 /* Slider */
+.slider-cta ul {
+	/* position .slide elements in a row */
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 100vw);
+	/* allow users to scroll horizontally */
+	overflow-x: scroll;
+}
 }
 .slider-controls {
 	position: absolute;

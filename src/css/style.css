@@ -308,6 +308,10 @@ body.mobile-menu-open::after {
 		height: 100%;
 	}
 
+	.slide article .copy {
+		padding: 6rem;
+	}
+
 }
 
 @media (hover: hover) {

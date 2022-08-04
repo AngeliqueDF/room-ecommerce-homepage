@@ -246,6 +246,12 @@ body.mobile-menu-open::after {
 	display: none;
 }
 
+@media screen and (min-width: 1440px) {
+	body {
+		height: 100vh;
+	}
+}
+
 @media (hover: hover) {
 	/* when supported */
 	.slider-controls button:hover {

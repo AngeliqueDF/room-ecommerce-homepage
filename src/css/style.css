@@ -292,6 +292,11 @@ body.mobile-menu-open::after {
 		left: calc(60vw);
 	}
 
+	.slider-controls button {
+		width: 4.75rem;
+		height: 4.75rem;
+	}
+
 }
 
 @media (hover: hover) {

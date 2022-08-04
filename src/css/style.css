@@ -297,6 +297,13 @@ body.mobile-menu-open::after {
 		height: 4.75rem;
 	}
 
+	.slide article {
+		height: unset;
+		display: grid;
+		grid-template-columns: 60vw 1fr;
+		grid-template-rows: 63vh;
+	}
+
 }
 
 @media (hover: hover) {

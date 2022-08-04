@@ -312,6 +312,12 @@ body.mobile-menu-open::after {
 		padding: 6rem;
 	}
 
+	.about {
+		display: flex;
+		max-width: 100vw;
+		height: 37vh;
+	}
+
 }
 
 @media (hover: hover) {

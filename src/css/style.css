@@ -322,6 +322,10 @@ body.mobile-menu-open::after {
 		width: 29.6%;
 	}
 
+	.about .copy {
+		padding: 4rem 2.5rem;
+	}
+
 }
 
 @media (hover: hover) {

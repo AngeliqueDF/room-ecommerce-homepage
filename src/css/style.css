@@ -326,6 +326,13 @@ body.mobile-menu-open::after {
 		padding: 4rem 2.5rem;
 	}
 
+	.about h3 {
+		font-size: 1.3rem;
+	}
+
+	.about p {
+		font-size: 1.05rem;
+	}
 }
 
 @media (hover: hover) {

@@ -279,6 +279,14 @@ body.mobile-menu-open::after {
 		color: white;
 	}
 
+	.slide h2 {
+		font-size: 2.7rem;
+	}
+
+	.slide .copy p {
+		font-size: 0.9rem;
+	}
+
 }
 
 @media (hover: hover) {

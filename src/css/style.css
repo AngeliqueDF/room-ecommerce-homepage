@@ -318,6 +318,10 @@ body.mobile-menu-open::after {
 		height: 37vh;
 	}
 
+	.about img {
+		width: 29.6%;
+	}
+
 }
 
 @media (hover: hover) {

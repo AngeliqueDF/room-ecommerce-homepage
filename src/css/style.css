@@ -250,6 +250,35 @@ body.mobile-menu-open::after {
 	body {
 		height: 100vh;
 	}
+	header {
+		justify-content: space-around;
+		width: 50%;
+		padding: 3rem;
+		right: unset;
+	}
+
+	header h1,
+	header nav {
+		order: unset;
+		margin: unset;
+	}
+
+	header h1 {
+		margin-top: 0.75%;
+		width: 5rem;
+	}
+
+	header button {
+		display: none;
+	}
+	header nav {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		align-items: baseline;
+		color: white;
+	}
+
 }
 
 @media (hover: hover) {

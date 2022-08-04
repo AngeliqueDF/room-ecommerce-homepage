@@ -304,6 +304,10 @@ body.mobile-menu-open::after {
 		grid-template-rows: 63vh;
 	}
 
+	.slide article img {
+		height: 100%;
+	}
+
 }
 
 @media (hover: hover) {

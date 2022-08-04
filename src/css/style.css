@@ -287,6 +287,11 @@ body.mobile-menu-open::after {
 		font-size: 0.9rem;
 	}
 
+	.slider-controls {
+		top: calc(63vh - 4.75rem);
+		left: calc(60vw);
+	}
+
 }
 
 @media (hover: hover) {

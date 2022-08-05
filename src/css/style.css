@@ -275,10 +275,13 @@ body.mobile-menu-open::after {
 	}
 	header nav {
 		display: flex;
-		justify-content: space-around;
-		width: 100%;
+		width: 80%;
 		align-items: baseline;
 		color: white;
+	}
+
+	header nav a {
+		margin-inline-end: 1.8rem;
 	}
 
 	.slide h2 {

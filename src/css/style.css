@@ -151,6 +151,7 @@ body.mobile-menu-open::after {
 }
 .slider-cta ul li {
 	width: 100vw;
+	overflow-y: hidden;
 	/* snap scroll at the start of the block an main axes */
 	scroll-snap-align: start;
 }

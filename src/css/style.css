@@ -151,9 +151,15 @@ body.mobile-menu-open::after {
 }
 .slider-cta ul li {
 	width: 100vw;
+	overflow-y: hidden;
 	/* snap scroll at the start of the block an main axes */
 	scroll-snap-align: start;
 }
+
+.slider-cta article {
+	position: relative;
+}
+
 .slider-controls {
 	position: absolute;
 	right: 0;
@@ -244,4 +250,113 @@ body.mobile-menu-open::after {
 
 .hide {
 	display: none;
+}
+
+@media screen and (min-width: 1440px) {
+	body {
+		height: 100vh;
+	}
+	header {
+		justify-content: space-around;
+		width: 30rem;
+		padding: 3rem 0 3rem 4rem;
+		right: unset;
+	}
+
+	header h1,
+	header nav {
+		order: unset;
+		margin: unset;
+	}
+
+	header h1 {
+		margin-top: 0.75%;
+		margin-inline-end: 2rem;
+		width: 7rem;
+	}
+
+	header button {
+		display: none;
+	}
+	header nav {
+		display: flex;
+		width: 80%;
+		align-items: baseline;
+		color: white;
+	}
+
+	header nav a {
+		margin-inline-end: 1.8rem;
+	}
+
+	.slide h2 {
+		font-size: 2.7rem;
+	}
+
+	.slide .copy p {
+		font-size: 0.9rem;
+	}
+
+	.slider-controls {
+		top: calc(63vh - 4.75rem);
+		left: calc(60vw);
+	}
+
+	.slider-controls button {
+		width: 4.75rem;
+		height: 4.75rem;
+	}
+
+	.slide article {
+		height: unset;
+		display: grid;
+		grid-template-columns: 60vw 1fr;
+		grid-template-rows: 63vh;
+	}
+
+	.slide article img {
+		height: 100%;
+	}
+
+	.slide article .copy {
+		padding: 6rem;
+	}
+
+	.about {
+		display: flex;
+		max-width: 100vw;
+		height: 37vh;
+	}
+
+	.about img {
+		width: 29.5vw;
+	}
+
+	.about .copy {
+		padding: 4rem 2.5rem;
+	}
+
+	.about h3 {
+		font-size: 1.3rem;
+	}
+
+	.about p {
+		font-size: 1.05rem;
+	}
+}
+
+@media (any-hover: hover) {
+	/* when supported */
+	.slider-controls button:hover {
+		background-color: grey;
+	}
+	.slider-controls button:active {
+		background-color: black;
+	}
+}
+
+@media (hover: none) {
+	.slider-controls button:active {
+		background-color: grey;
+	}
 }

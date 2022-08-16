@@ -345,11 +345,13 @@ body.mobile-menu-open::after {
 	}
 }
 
-@media (hover: hover) {
+@media (any-hover: hover) {
 	/* when supported */
 	.slider-controls button:hover {
-		cursor: pointer;
 		background-color: grey;
+	}
+	.slider-controls button:active {
+		background-color: black;
 	}
 }
 

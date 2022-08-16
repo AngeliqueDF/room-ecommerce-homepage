@@ -3,7 +3,7 @@
 	src: url("./../fonts/LeagueSpartan-VariableFont_wght.ttf");
 	font-style: normal;
 	font-weight: 500 700;
-	font-display: font-swap;
+	font-display: swap;
 }
 
 /* Make images responsive */
@@ -362,3 +362,9 @@ body.mobile-menu-open::after {
 		background-color: grey;
 	}
 }
+
+/* Utility */
+.visuallyhidden {
+	display: none;
+}
+/* End utility */

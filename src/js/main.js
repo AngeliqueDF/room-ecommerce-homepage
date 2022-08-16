@@ -1,13 +1,17 @@
 import { Slider } from "./Slider";
 
-const [sliderLeftButton, sliderRightButton] = Array.from(
-	document.querySelectorAll(".slider-controls button")
-);
 const sliderControls = Slider(".slider-cta ul", ".slide");
-sliderLeftButton.addEventListener("click", sliderControls.moveToPreviousSlide);
-sliderRightButton.addEventListener("click", sliderControls.moveToNextSlide);
+const sliderButtons = document.querySelectorAll(".slider-controls button");
 
 const mobileMenuToggle = document.querySelector("header button");
 mobileMenuToggle.addEventListener("click", () => {
 	document.body.classList.toggle("mobile-menu-open");
+});
+
+sliderButtons.forEach((btn) => {
+	if (Array.from(btn.classList).includes("previous-slide")) {
+		btn.addEventListener("click", sliderControls.moveToPreviousSlide);
+	} else if (Array.from(btn.classList).includes("next-slide")) {
+		btn.addEventListener("click", sliderControls.moveToNextSlide);
+	}
 });

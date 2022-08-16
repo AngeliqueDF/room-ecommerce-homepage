@@ -3,6 +3,7 @@
 	src: url("./../fonts/LeagueSpartan-VariableFont_wght.ttf");
 	font-style: normal;
 	font-weight: 500 700;
+	font-display: font-swap;
 }
 
 /* Make images responsive */

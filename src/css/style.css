@@ -155,6 +155,11 @@ body.mobile-menu-open::after {
 	/* snap scroll at the start of the block an main axes */
 	scroll-snap-align: start;
 }
+
+.slider-cta article {
+	position: relative;
+}
+
 .slider-controls {
 	position: absolute;
 	right: 0;

@@ -2,12 +2,10 @@
 
 ![Live version preview for the Room homepage coding challenge](./src/images/room-ecommerce-homepage.vercel.app.png)
 
-![Room studio homepage website.](./placeholder.jpg)
-
 <div align="center">
-  <img src="./logo-reactjs.svg">
-  <img src="./logo-reactjs.svg">
-  <img src="./logo-reactjs.svg">
+  <img src="./src/images/logo-html5.svg">
+  <img src="./src/images/logo-css3.svg">
+  <img src="./src/images/logo-javascript-img.svg">
 </div>
 
 ## Overview

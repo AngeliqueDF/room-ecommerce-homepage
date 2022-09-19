@@ -63,8 +63,6 @@ This is a frontend challenge. Aside from the HTML structure and page layout, I h
 > - View the optimal layout for the site depending on their device's screen size
 > - See hover states for all interactive elements on the page
 > - Navigate the slider using either their mouse/trackpad or keyboard
->
-> Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ### How I built this project
 
@@ -101,6 +99,10 @@ The new part for me was using `scroll-*` with `overflow-x` rules to achieve the 
 
 <br />
 
+### Sources
+
+- [Room homepage challenge by Frontend Mentor.](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq)
+
 ### Planned changes
 
-- [ ] Add accessibility features.
+- [x] Add accessibility features.
